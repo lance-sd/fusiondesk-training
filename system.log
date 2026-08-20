@@ -1,0 +1,15 @@
+2024-01-15 08:23:11 INFO Application started successfully
+2024-01-15 08:23:15 INFO Database connection established
+2024-01-15 08:24:02 WARNING Disk space below 20%
+2024-01-15 08:25:17 ERROR Failed to connect to backup server
+2024-01-15 08:26:33 INFO User Lance logged in
+2024-01-15 08:27:45 ERROR Timeout on API call to payment gateway
+2024-01-15 08:28:12 WARNING CPU usage above 80%
+2024-01-15 08:29:01 INFO Scheduled backup started
+2024-01-15 08:30:44 ERROR Database query failed: connection reset
+2024-01-15 08:31:22 INFO Backup completed successfully
+2024-01-15 08:32:05 WARNING Memory usage above 75%
+2024-01-15 08:33:18 ERROR Service restarted unexpectedly
+2024-01-15 08:34:29 INFO User Warren logged in
+2024-01-15 08:35:41 ERROR Failed to write to log directory
+2024-01-15 08:36:55 INFO System health check passed

@@ -1,0 +1,11 @@
+Log Summary Report 
+Total lines: 15 
+Errors: 5 
+Warnings: 3 
+info: 7 
+Error lines: 
+Error: 2024-01-15 08:25:17 ERROR Failed to connect to backup server 
+Error: 2024-01-15 08:27:45 ERROR Timeout on API call to payment gateway 
+Error: 2024-01-15 08:30:44 ERROR Database query failed: connection reset 
+Error: 2024-01-15 08:33:18 ERROR Service restarted unexpectedly 
+Error: 2024-01-15 08:35:41 ERROR Failed to write to log directory 
