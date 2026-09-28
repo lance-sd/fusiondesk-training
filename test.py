@@ -1,6 +1,25 @@
-#Block A
-name = input("What is your name?: ")
-age = int(input("How old are you? "))
-turn_100 = 2026 + (100 - age )
+#block E
+class BankAccount:
+    def __init__(self,balance=0):
+        self.balance = balance
 
-print(f"Hi {name}, if you are {age} years old, that means you will turn 100 years old in the year {turn_100}")
+    def deposit(self,amount):
+        self.balance = amount + self.balance
+
+    def withdraw(self,amount):
+        if amount > self.balance:
+            print("Withdrawal amount cannnot exceed balance, please try again")
+            return None
+        else:
+            self.balance = self.balance - amount
+
+
+account = BankAccount()
+account.deposit(100)
+print(account.balance)
+
+account.withdraw(30)
+print(account.balance)
+
+account.withdraw(1000)
+print(account.balance)
